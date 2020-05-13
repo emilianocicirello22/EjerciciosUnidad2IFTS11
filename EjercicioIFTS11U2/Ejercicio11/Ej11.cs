@@ -2,7 +2,7 @@
 
 namespace Ejercicio11
 {
-    class Program
+    class Ej11
     {
         static void Main(string[] args)
         {
