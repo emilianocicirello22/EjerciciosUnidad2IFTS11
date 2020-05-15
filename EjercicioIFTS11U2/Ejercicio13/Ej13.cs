@@ -22,9 +22,9 @@ namespace Ejercicio13
             r2 = $"la segunda fecha ({fecha2}) es menor a la primera ({fecha1})";
 
             //desglosamos el año
-            anio1 = fecha1 / 100000;
-            anio2 = fecha2 / 100000;
-
+            anio1 = fecha1 % 100000;
+            anio2 = fecha2 % 100000;
+            Console.WriteLine(anio1);
 
             //consultamos si el año 1 es menor al 2
             if(anio1 < anio2)
