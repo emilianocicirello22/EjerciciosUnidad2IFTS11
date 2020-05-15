@@ -23,7 +23,7 @@ namespace Ejercicio22
 
                         
             //desglosamos la fecha
-            anio = fecha / 100000;
+            anio = fecha % 10000;
             mes = (fecha % 1000000) / 10000;
             dia = fecha / 1000000;
 
